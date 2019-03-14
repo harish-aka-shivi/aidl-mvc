@@ -5,9 +5,9 @@ import java.util.List;
 
 public interface MainView {
 
-    void showProgress();
+    String getNumber1();
 
-    void hideProgress();
+    String getNumber2();
 
-    void showMessage(String message);
+    void setResultNumber(int number);
 }

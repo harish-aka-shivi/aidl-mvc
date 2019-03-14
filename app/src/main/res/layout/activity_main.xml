@@ -36,14 +36,13 @@
         android:ems="10"
         android:hint="Enter a number"
         android:inputType="number" />
-    <EditText
+    <TextView
         android:id="@+id/ed_Result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ed_SecondNumber"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="18dp"
-        android:editable="false"
         android:ems="10" />
     <Button
         android:id="@+id/btn_Result"
@@ -53,7 +52,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="26dp"
         android:background="#ADD8E6"
-        android:onClick="onClickButtonResult"
         android:text="Result" />
 
 </RelativeLayout>
